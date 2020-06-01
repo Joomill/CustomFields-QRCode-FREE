@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!--
+  ~  package: Custom Fields - QR Code plugin - FREE Version
+  ~  copyright: Copyright (c) 2020. Jeroen Moolenschot | Joomill
+  ~  license: GNU General Public License version 3 or later
+  ~  link: https://www.joomill-extensions.com
+  -->
+
 <extension type="plugin" version="3.7.0" group="fields" method="upgrade">
 	<name>plg_fields_qrcode</name>
 	<author>Joomill Extensions</author>
-	<creationDate>2017-04-28</creationDate>
-	<copyright>Copyright (C) 2017 Joomill. All rights reserved.</copyright>
+	<creationDate>1 June 2020 </creationDate>
+	<copyright>Copyright (C) 2020 Joomill. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>info@joomill-extensions.com</authorEmail>
 	<authorUrl>https://www.joomill-extensions.com</authorUrl>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<description>This plugin lets you create new fields for 'QR Code' in any extensions where custom fields are supported.</description>
 	
 	<files>

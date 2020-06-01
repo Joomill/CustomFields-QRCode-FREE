@@ -1,27 +1,28 @@
 <?php
 /**
- * Custom Fields - QR Code plugin for Joomla
- *
- * @author Joomill (info@joomill-extensions.com)
- * @copyright Copyright (c) 2017 Joomill
- * @license GNU Public License
- * @link https://www.joomill-extensions.com/
+ *  package: Custom Fields - QR Code plugin - FREE Version
+ *  copyright: Copyright (c) 2020. Jeroen Moolenschot | Joomill
+ *  license: GNU General Public License version 3 or later
+ *  link: https://www.joomill-extensions.com
  */
 
+// No direct access.
 defined('_JEXEC') or die;
+
+use Joomla\CMS\Uri\Uri;
 
 JLoader::import('components.com_fields.libraries.fieldsplugin', JPATH_ADMINISTRATOR);
 
 /**
  * Fields QR Code Plugin
  *
- * @since  3.7.0
+ * @since  1.0.0
  */
 class PlgFieldsQrcode extends FieldsPlugin
 {
 	public function onInstallerBeforePackageDownload(&$url, &$headers)
 	{
-		$uri = JUri::getInstance($url);
+		$uri = URI::getInstance($url);
 		
 		// I don't care about download URLs not coming from our site
 		// Note: as the Download ID is common for all extensions, this plugin will be triggered for all

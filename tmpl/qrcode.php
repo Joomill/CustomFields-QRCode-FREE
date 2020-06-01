@@ -1,17 +1,18 @@
 <?php
 /**
- * Custom Fields - QR Code plugin for Joomla
- *
- * @author Joomill (info@joomill-extensions.com)
- * @copyright Copyright (c) 2017 Joomill
- * @license GNU Public License
- * @link https://www.joomill-extensions.com/
+ *  package: Custom Fields - QR Code plugin - FREE Version
+ *  copyright: Copyright (c) 2020. Jeroen Moolenschot | Joomill
+ *  license: GNU General Public License version 3 or later
+ *  link: https://www.joomill-extensions.com
  */
 
+// No direct access.
 defined('_JEXEC') or die;
 
+use Joomla\CMS\Factory;
+
 //add stylesheet for responsive container
-$document = JFactory::getDocument();
+$document = Factory::getDocument();
 $document->addStylesheet('plugins/fields/qrcode/tmpl/style.css');
 
 $value = $field->value;
