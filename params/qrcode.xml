@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="fieldparams">
+		<fieldset 
+			name="fieldparams" 
+			addfieldpath="/plugins/fields/qrcode/elements"
+		>
+		
+			<field
+				name="align"
+				type="pro"
+				label="PLG_FIELDS_QRCODE_PARAMS_ALIGN_LABEL"
+				description="PLG_FIELDS_QRCODE_PARAMS_ALIGN_DESC"
+				default="center"
+				>
+				<option value="left">PLG_FIELDS_QRCODE_PARAMS_ALIGN_LEFT</option>
+				<option value="center">PLG_FIELDS_QRCODE_PARAMS_ALIGN_CENTER</option>
+				<option value="right">PLG_FIELDS_QRCODE_PARAMS_ALIGN_RIGHT</option>
+			</field>
+				
+			<field
+				name="size"
+				type="pro"
+				label="PLG_FIELDS_QRCODE_PARAMS_SIZE_LABEL"
+				description="PLG_FIELDS_QRCODE_PARAMS_SIZE_DESC"
+				size="5"
+				default="100"
+			/>
+			
+			<field 
+				name="color" 
+				type="pro" 
+				default="#000000" 
+				label="PLG_FIELDS_QRCODE_PARAMS_COLOR_LABEL" 
+				description="PLG_FIELDS_QRCODE_PARAMS_COLOR_DESC"
+			/>
+			
+			<field 
+				name="bgcolor" 
+				type="pro" 
+				default="#ffffff" 
+				label="PLG_FIELDS_QRCODE_PARAMS_BGCOLOR_LABEL" 
+				description="PLG_FIELDS_QRCODE_PARAMS_BGCOLOR_DESC"
+			/>
+						
+		
+		</fieldset>
+	</fields>
+</form>
