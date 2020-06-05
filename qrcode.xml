@@ -8,8 +8,43 @@
 	<authorEmail>info@joomill-extensions.com</authorEmail>
 	<authorUrl>https://www.joomill-extensions.com</authorUrl>
 	<version>1.1.0</version>
-	<description>This plugin lets you create new fields for 'QR Code' in any extensions where custom fields are supported.</description>
-	
+	<description><![CDATA[
+
+	<span class="readonly"><h1>Custom Fields - QR Code plugin <small>Free version</small></h1>
+		<p>This plugin lets you create new fields for 'QR Code' in any extensions where custom fields are supported.</p>
+		<p class="alert alert-info"><a href="index.php?option=com_plugins&view=plugins&filter_search=qr">When you would like to recieve updates, make sure you enter a valid Download ID in the plugin-parameters (click here)</a></p>
+
+ 		<p class="margintop">
+		<a href="https://www.joomill-extensions.com/extensions/custom-fields-plugins/documentation" target="_blank" class="btn btn-info">Manual</a>
+		<a href="https://www.joomill-extensions.com/support" target="_blank" class="btn btn-info">Support</a>
+		<a href="https://extensions.joomla.org/extension/mobile/qr-code/fields-qr-code/" target="_blank" class="btn btn-info">Extensions Directory</a>
+		</p>
+
+		<p>Follow us for more information about Joomla and updates for our extensions:
+		<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fjoomill&amp;send=false&amp;layout=button_count&amp;width=150&amp;show_faces=false&amp;font=arial&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:21px;" allowTransparency="true"></iframe>
+		<a href="https://twitter.com/joomill" class="twitter-follow-button" data-show-count="true" data-dnt="true">Follow @joomill</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		</p>
+
+		<h2>Thank you and enjoy,</h2>
+		<p><a href="https://www.joomill-extensions.com/" target="_blank"><img src="https://www.joomill-extensions.com/images/logo.png" width="165" height="66"/></a></p>
+
+		<p class="license">Custom Fields - QR Code plugin is released under the <a target="_blank" href="https://www.gnu.org/licenses/gpl-2.0.html">GNU/GPL v2 license.</a></p>
+	</span>
+
+
+<style type="text/css">
+		    span.readonly h1 { clear:both; font-family: Arial; font-size:26px; margin: 0 26px 10px; color:#333; font-weight: normal; border-bottom: 1px solid #eee; }
+		    span.readonly h2 { clear:both; font-family: Georgia, sans-serif; font-size:20px; margin: 30px 26px 10px; color:#333; font-weight: normal; }
+			span.readonly { padding: 10px; font-family: Arial; font-size:13px !important; font-weight: normal !important; text-align: justify; color: #4d4d4d; line-height: 24px; }
+			span.readonly p { margin: 0 26px 10px }
+			span.readonly p.margintop { margin-top: 30px }
+			span.readonly p.license { font-size: 11px; margin: 30px 26px 0; padding: 6px 0; }
+			.alert-danger .alert-link { color: #843534 } .alert .alert-link { font-weight: 700 }
+}
+</style>
+		]]></description>
+
 	<files>
 		<filename plugin="qrcode">qrcode.php</filename>
 		<filename>script.php</filename>

@@ -42,8 +42,7 @@
 				label="PLG_FIELDS_QRCODE_PARAMS_BGCOLOR_LABEL" 
 				description="PLG_FIELDS_QRCODE_PARAMS_BGCOLOR_DESC"
 			/>
-						
-		
+			
 		</fieldset>
 	</fields>
 </form>
