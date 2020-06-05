@@ -12,25 +12,22 @@
 
 	<span class="readonly"><h1>Custom Fields - QR Code plugin <small>Free version</small></h1>
 		<p>This plugin lets you create new fields for 'QR Code' in any extensions where custom fields are supported.</p>
-		<p class="alert alert-info"><a href="index.php?option=com_plugins&view=plugins&filter_search=qr">When you would like to recieve updates, make sure you enter a valid Download ID in the plugin-parameters (click here)</a></p>
-
  		<p class="margintop">
 		<a href="https://www.joomill-extensions.com/extensions/custom-fields-plugins/documentation" target="_blank" class="btn btn-info">Manual</a>
 		<a href="https://www.joomill-extensions.com/support" target="_blank" class="btn btn-info">Support</a>
 		<a href="https://extensions.joomla.org/extension/mobile/qr-code/fields-qr-code/" target="_blank" class="btn btn-info">Extensions Directory</a>
 		</p>
-
 		<p>Follow us for more information about Joomla and updates for our extensions:
 		<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fjoomill&amp;send=false&amp;layout=button_count&amp;width=150&amp;show_faces=false&amp;font=arial&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:21px;" allowTransparency="true"></iframe>
 		<a href="https://twitter.com/joomill" class="twitter-follow-button" data-show-count="true" data-dnt="true">Follow @joomill</a>
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 		</p>
-
 		<h2>Thank you and enjoy,</h2>
 		<p><a href="https://www.joomill-extensions.com/" target="_blank"><img src="https://www.joomill-extensions.com/images/logo.png" width="165" height="66"/></a></p>
-
 		<p class="license">Custom Fields - QR Code plugin is released under the <a target="_blank" href="https://www.gnu.org/licenses/gpl-2.0.html">GNU/GPL v2 license.</a></p>
+		<p class="alert alert-warning">You are using the Free version. For more functionality you can purchase the PRO version. <a href="https://www.joomill-extensions.com/subscribe/product/custom-fields-plugins?coupon=UP2PRO10" target="_blank" class="btn btn-small btn-primary">Get <b>10% discount</b> after trying!</a></p>
 	</span>
+
 
 
 <style type="text/css">
