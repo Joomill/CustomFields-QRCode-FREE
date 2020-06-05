@@ -42,6 +42,11 @@
 				label="PLG_FIELDS_QRCODE_PARAMS_BGCOLOR_LABEL" 
 				description="PLG_FIELDS_QRCODE_PARAMS_BGCOLOR_DESC"
 			/>
+
+			<field
+				name=""
+				type="upgrade"
+			/>
 			
 		</fieldset>
 	</fields>
