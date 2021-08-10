@@ -2,45 +2,35 @@
 <extension type="plugin" version="3.7.0" group="fields" method="upgrade">
 	<name>plg_fields_qrcode</name>
 	<author>Joomill Extensions</author>
-	<creationDate>1 June 2020 </creationDate>
-	<copyright>Copyright (C) 2020 Joomill. All rights reserved.</copyright>
+	<creationDate>10-08-2021</creationDate>
+	<copyright>Copyright (C) 2021 Joomill. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>info@joomill-extensions.com</authorEmail>
 	<authorUrl>https://www.joomill-extensions.com</authorUrl>
-	<version>1.1.0</version>
-	<description><![CDATA[
-
-	<span class="readonly"><h1>Custom Fields - QR Code plugin <small>Free version</small></h1>
+	<version>4.0.0</version>
+	<description>
+		<![CDATA[
 		<p>This plugin lets you create new fields for 'QR Code' in any extensions where custom fields are supported.</p>
- 		<p class="margintop">
-		<a href="https://www.joomill-extensions.com/extensions/custom-fields-plugins/documentation" target="_blank" class="btn btn-info">Manual</a>
-		<a href="https://www.joomill-extensions.com/support" target="_blank" class="btn btn-info">Support</a>
-		<a href="https://extensions.joomla.org/extension/mobile/qr-code/fields-qr-code/" target="_blank" class="btn btn-info">Extensions Directory</a>
+		<div class="alert alert-success">This is the FREE version of the Custom Fields plugin. Some features and support are only available in the PRO Version.</div>
+ 		<p>
+		<a href="https://www.joomill-extensions.com/extensions/custom-fields-plugins/documentation" target="_blank" class="btn btn-primary">Manual</a>
+		<a href="https://extensions.joomla.org/extension/mobile/qr-code/fields-qr-code/" target="_blank" class="btn btn-primary">Extensions Directory</a>
+		<a href="https://www.joomill-extensions.com/extensions/custom-fields-plugins" target="_blank" class="btn btn-success">Get PRO Version</a>
 		</p>
-		<p>Follow us for more information about Joomla and updates for our extensions:
-		<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fjoomill&amp;send=false&amp;layout=button_count&amp;width=150&amp;show_faces=false&amp;font=arial&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:21px;" allowTransparency="true"></iframe>
-		<a href="https://twitter.com/joomill" class="twitter-follow-button" data-show-count="true" data-dnt="true">Follow @joomill</a>
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		<br/>
+		<p>
+		Follow me for more information about Joomla and updates for Joomill extensions:<br/>
+		<a href="https://www.twitter.com/Joomill" target="_blank"><i class="fab fa-twitter-square fa-2x" style="color:#1DA1F2;"></i></a>
+		<a href="https://www.instagram.com/Joomill" target="_blank"><i class="fab fa-instagram-square fa-2x" style="color:#E1306C;"></i></a>
+		<a href="https://www.facebook.com/Joomill" target="_blank"><i class="fab fa-facebook-square fa-2x" style="color:#4267B2;"></i></a>
 		</p>
-		<h2>Thank you and enjoy,</h2>
-		<p><a href="https://www.joomill-extensions.com/" target="_blank"><img src="https://www.joomill-extensions.com/images/logo.png" width="165" height="66"/></a></p>
-		<p class="license">Custom Fields - QR Code plugin is released under the <a target="_blank" href="https://www.gnu.org/licenses/gpl-2.0.html">GNU/GPL v2 license.</a></p>
-		<p class="alert alert-warning">You are using the Free version. For more functionality you can purchase the PRO version. <a href="https://www.joomill-extensions.com/subscribe/product/custom-fields-plugins?coupon=UP2PRO10" target="_blank" class="btn btn-small btn-primary">Get <b>10% discount</b> after trying!</a></p>
-	</span>
-
-
-
-<style type="text/css">
-		    span.readonly h1 { clear:both; font-family: Arial; font-size:26px; margin: 0 26px 10px; color:#333; font-weight: normal; border-bottom: 1px solid #eee; }
-		    span.readonly h2 { clear:both; font-family: Georgia, sans-serif; font-size:20px; margin: 30px 26px 10px; color:#333; font-weight: normal; }
-			span.readonly { padding: 10px; font-family: Arial; font-size:13px !important; font-weight: normal !important; text-align: justify; color: #4d4d4d; line-height: 24px; }
-			span.readonly p { margin: 0 26px 10px }
-			span.readonly p.margintop { margin-top: 30px }
-			span.readonly p.license { font-size: 11px; margin: 30px 26px 0; padding: 6px 0; }
-			.alert-danger .alert-link { color: #843534 } .alert .alert-link { font-weight: 700 }
-}
-</style>
-		]]></description>
+		<style>
+		a[target="_blank"]::before {
+			content: "";
+		}
+		</style>
+		]]>
+	</description>
 
 	<files>
 		<filename plugin="qrcode">qrcode.php</filename>
@@ -49,18 +39,19 @@
 		<folder>params</folder>
 		<folder>tmpl</folder>
 	</files>
-	
+
 	<languages folder="language">
-		<language tag="en-GB">en-GB.plg_fields_qrcode.ini</language>
-		<language tag="en-GB">en-GB.plg_fields_qrcode.sys.ini</language>
+		<language tag="en-GB">plg_fields_qrcode.ini</language>
+		<language tag="en-GB">plg_fields_qrcode.sys.ini</language>
 	</languages>
-	
+
+	<config>
+	</config>
+
+	<!-- Scripts to run on installation -->
 	<scriptfile>script.php</scriptfile>
 	
 	<updateservers>		
-		<server type="extension" priority="1" name="Custom Fields - QR Code Update"><![CDATA[https://www.joomill-extensions.com/index.php?option=com_rdsubs&view=updater&format=xml&cat=11]]></server>	
+		<server type="extension" priority="1" name="Custom Fields - QR Code"><![CDATA[https://www.joomill-extensions.com/index.php?option=com_rdsubs&view=updater&format=xml&cat=11]]></server>
 	</updateservers>
-	
-	<config>	
-	</config>
 </extension>

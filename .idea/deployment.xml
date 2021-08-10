@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="Localhost FREE" showAutoUploadSettingsWarning="false">
+  <component name="PublishConfigData" autoUpload="Always" showAutoUploadSettingsWarning="false">
     <serverData>
-      <paths name="Joomla 3 FREE">
-        <serverdata>
-          <mappings>
-            <mapping deploy="plugins\fields\qrcode" local="$PROJECT_DIR$" web="/" />
-            <mapping deploy="administrator\language\en-GB" local="$PROJECT_DIR$/language" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="Joomla 3 PRO">
+      <paths name="Joomla 4 DEV">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -21,14 +13,6 @@
         <serverdata>
           <mappings>
             <mapping deploy="plugins\fields\qrcode" local="$PROJECT_DIR$" web="/" />
-            <mapping deploy="administrator\language\en-GB" local="$PROJECT_DIR$/language" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="Joomla 4 PRO">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

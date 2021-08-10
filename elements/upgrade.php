@@ -16,7 +16,7 @@ class JFormFieldUpgrade extends JFormField
 	protected function getInput()
 	{
 		return
-			'<p class="alert alert-warning">You are using the Free version. For more functionality you can purchase the PRO version. <a href="https://www.joomill-extensions.com/subscribe/product/custom-fields-plugins?coupon=UP2PRO10" target="_blank" class="btn btn-small btn-primary">Get <b>10% discount</b> after trying!</a></p>';
+            '<div class="alert alert-success text-center small">This is the FREE version of Joomill Custom Fields plugin. <br/> Some features and support are only available in the <a class="alert-link" target="_blank" href="https://www.joomill-extensions.com/extensions/custom-fields-plugins">PRO Version</a></div>';
 	}
 
 
