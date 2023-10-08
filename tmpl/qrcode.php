@@ -1,7 +1,7 @@
 <?php
-/**
+/*
  *  package: Custom Fields - QR Code plugin - FREE Version
- *  copyright: Copyright (c) 2020. Jeroen Moolenschot | Joomill
+ *  copyright: Copyright (c) 2023. Jeroen Moolenschot | Joomill
  *  license: GNU General Public License version 3 or later
  *  link: https://www.joomill-extensions.com
  */
@@ -27,7 +27,7 @@ $ratio = "";
 
 if ($value == '')
 {
-	return;
+    return;
 }
 
 echo '<div align="'.$align.'" id="qr_'. $value.'">

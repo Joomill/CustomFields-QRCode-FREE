@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<extension type="plugin" version="3.7.0" group="fields" method="upgrade">
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="plugin" group="fields" method="upgrade">
 	<name>plg_fields_qrcode</name>
 	<author>Joomill Extensions</author>
-	<creationDate>10-08-2021</creationDate>
-	<copyright>Copyright (C) 2021 Joomill. All rights reserved.</copyright>
+	<creationDate>08-10-2023</creationDate>
+	<copyright>(C) 2023 Joomill.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>info@joomill-extensions.com</authorEmail>
 	<authorUrl>https://www.joomill-extensions.com</authorUrl>
-	<version>4.0.0</version>
+	<version>5.0.0</version>
+	<namespace path="src">Joomill\Plugin\Fields\Qrcode</namespace>
 	<description>
 		<![CDATA[
 		<p>This plugin lets you create new fields for 'QR Code' in any extensions where custom fields are supported.</p>
@@ -33,25 +34,26 @@
 	</description>
 
 	<files>
-		<filename plugin="qrcode">qrcode.php</filename>
-		<filename>script.php</filename>
 		<folder>elements</folder>
+		<folder>language</folder>
 		<folder>params</folder>
+		<folder plugin="qrcode">services</folder>
+		<folder>src</folder>
 		<folder>tmpl</folder>
+		<file>script.php</file>
 	</files>
-
-	<languages folder="language">
-		<language tag="en-GB">plg_fields_qrcode.ini</language>
-		<language tag="en-GB">plg_fields_qrcode.sys.ini</language>
-	</languages>
 
 	<config>
 	</config>
 
 	<!-- Scripts to run on installation -->
 	<scriptfile>script.php</scriptfile>
-	
-	<updateservers>		
-		<server type="extension" priority="1" name="Custom Fields - QR Code"><![CDATA[https://www.joomill-extensions.com/index.php?option=com_rdsubs&view=updater&format=xml&cat=11]]></server>
+
+	<changelogurl>
+		<![CDATA[https://www.joomill-extensions.com/index.php?option=com_ochsubscriptions&amp;view=changelog&amp;format=xml&amp;cat=11]]>
+	</changelogurl>
+
+	<updateservers>
+		<server type="extension" priority="1" name="Custom Fields - Qrcode FREE"><![CDATA[https://www.joomill-extensions.com/index.php?option=com_ochsubscriptions&amp;view=updater&amp;format=xml&amp;cat=11]]></server>
 	</updateservers>
 </extension>

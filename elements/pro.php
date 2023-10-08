@@ -1,7 +1,7 @@
 <?php
-/**
+/*
  *  package: Custom Fields - QR Code plugin - FREE Version
- *  copyright: Copyright (c) 2020. Jeroen Moolenschot | Joomill
+ *  copyright: Copyright (c) 2023. Jeroen Moolenschot | Joomill
  *  license: GNU General Public License version 3 or later
  *  link: https://www.joomill-extensions.com
  */
@@ -10,8 +10,12 @@
 defined('_JEXEC') or die;
 
 use Joomla\CMS\Language\Text;
+use Joomla\CMS\Form\FormHelper;
+use Joomla\CMS\Form\Field\ListField;
 
-class JFormFieldPRO extends JFormField
+FormHelper::loadFieldClass('list');
+
+class JFormFieldPRO extends ListField
 {
 	protected $type = 'pro';
 
@@ -21,6 +25,4 @@ class JFormFieldPRO extends JFormField
 		return
 			'<code>' . $text . '</code>';
 	}
-
-
 }
