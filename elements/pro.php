@@ -9,9 +9,9 @@
 // No direct access.
 defined('_JEXEC') or die;
 
-use Joomla\CMS\Language\Text;
-use Joomla\CMS\Form\FormHelper;
 use Joomla\CMS\Form\Field\ListField;
+use Joomla\CMS\Form\FormHelper;
+use Joomla\CMS\Language\Text;
 
 FormHelper::loadFieldClass('list');
 
@@ -22,6 +22,7 @@ class JFormFieldPRO extends ListField
 	protected function getInput()
 	{
 		$text = Text::_('PLG_FIELDS_QRCODE_PARAMS_PRO_ONLY');
+
 		return
 			'<code>' . $text . '</code>';
 	}

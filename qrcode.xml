@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="plugin" group="fields" method="upgrade">
-	<name>plg_fields_qrcode</name>
-	<author>Joomill Extensions</author>
-	<creationDate>08-10-2023</creationDate>
-	<copyright>(C) 2023 Joomill.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<authorEmail>info@joomill-extensions.com</authorEmail>
-	<authorUrl>https://www.joomill-extensions.com</authorUrl>
-	<version>5.0.0</version>
-	<namespace path="src">Joomill\Plugin\Fields\Qrcode</namespace>
-	<description>
-		<![CDATA[
+    <name>plg_fields_qrcode</name>
+    <author>Joomill Extensions</author>
+    <creationDate>08-10-2023</creationDate>
+    <copyright>(C) 2023 Joomill.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>info@joomill-extensions.com</authorEmail>
+    <authorUrl>https://www.joomill-extensions.com</authorUrl>
+    <version>5.0.0</version>
+    <namespace path="src">Joomill\Plugin\Fields\Qrcode</namespace>
+    <description>
+        <![CDATA[
 		<p>This plugin lets you create new fields for 'QR Code' in any extensions where custom fields are supported.</p>
 		<div class="alert alert-success">This is the FREE version of the Custom Fields plugin. Some features and support are only available in the PRO Version.</div>
  		<p>
@@ -31,29 +31,30 @@
 		}
 		</style>
 		]]>
-	</description>
+    </description>
 
-	<files>
-		<folder>elements</folder>
-		<folder>language</folder>
-		<folder>params</folder>
-		<folder plugin="qrcode">services</folder>
-		<folder>src</folder>
-		<folder>tmpl</folder>
-		<file>script.php</file>
-	</files>
+    <files>
+        <folder>elements</folder>
+        <folder>language</folder>
+        <folder>params</folder>
+        <folder plugin="qrcode">services</folder>
+        <folder>src</folder>
+        <folder>tmpl</folder>
+        <file>script.php</file>
+    </files>
 
-	<config>
-	</config>
+    <config>
+    </config>
 
-	<!-- Scripts to run on installation -->
-	<scriptfile>script.php</scriptfile>
+    <!-- Scripts to run on installation -->
+    <scriptfile>script.php</scriptfile>
 
-	<changelogurl>
-		<![CDATA[https://www.joomill-extensions.com/index.php?option=com_ochsubscriptions&amp;view=changelog&amp;format=xml&amp;cat=11]]>
-	</changelogurl>
+    <changelogurl>
+        <![CDATA[https://www.joomill-extensions.com/index.php?option=com_ochsubscriptions&amp;view=changelog&amp;format=xml&amp;cat=11]]>
+    </changelogurl>
 
-	<updateservers>
-		<server type="extension" priority="1" name="Custom Fields - Qrcode FREE"><![CDATA[https://www.joomill-extensions.com/index.php?option=com_ochsubscriptions&amp;view=updater&amp;format=xml&amp;cat=11]]></server>
-	</updateservers>
+    <updateservers>
+        <server type="extension" priority="1" name="Custom Fields - Qrcode FREE">
+            <![CDATA[https://www.joomill-extensions.com/index.php?option=com_ochsubscriptions&amp;view=updater&amp;format=xml&amp;cat=11]]></server>
+    </updateservers>
 </extension>
