@@ -12,7 +12,7 @@ defined('_JEXEC') or die;
 use Joomla\CMS\Factory;
 
 //add stylesheet for responsive container
-$document = Factory::getDocument();
+$document = Factory::getApplication()->getDocument();
 $document->addStylesheet('plugins/fields/qrcode/tmpl/style.css');
 
 $value   = $field->value;
