@@ -21,7 +21,7 @@ class JFormFieldPRO extends ListField
 
 	protected function getInput()
 	{
-		$text = Text::_('PLG_FIELDS_QRCODE_PARAMS_PRO_ONLY');
+		$text = Text::_('PLG_FIELDS_QRCODE_PRO_ONLY');
 
 		return
 			'<code>' . $text . '</code>';
