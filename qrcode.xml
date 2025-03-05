@@ -1,44 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  ~  package: Custom Fields - QR Code plugin - FREE Version
-  ~  copyright: Copyright (c) 2025. Jeroen Moolenschot | Joomill
-  ~  license: GNU General Public License version 3 or later
-  ~  link: https://www.joomill-extensions.com
-  -->
-
 <extension type="plugin" group="fields" method="upgrade">
-    <name>plg_fields_qrcode</name>
-    <author>Joomill Extensions</author>
-    <creationDate>March 2025</creationDate>
-    <copyright>(C) 2025 Joomill Extensions</copyright>
-    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <name>PLG_FIELDS_QRCODE</name>
+    <description>PLG_FIELDS_QRCODE_XML_DESCRIPTION</description>
+    <author>Jeroen Moolenschot | Joomill</author>
     <authorEmail>info@joomill-extensions.com</authorEmail>
     <authorUrl>https://www.joomill-extensions.com</authorUrl>
+    <license>GNU General Public License version 2 or later</license>
+    <creationDate>March 2025</creationDate>
+    <copyright>(C) 2025 Joomill Extensions</copyright>
     <version>5.1.0</version>
     <namespace path="src">Joomill\Plugin\Fields\Qrcode</namespace>
-    <description>
-        <![CDATA[
-		<p>This plugin lets you create new fields for 'QR Code' in any extensions where custom fields are supported.</p>
-		<div class="alert alert-success">This is the FREE version of the Custom Fields plugin. Some features and support are only available in the PRO Version.</div>
- 		<p>
-		<a href="https://www.joomill-extensions.com/extensions/custom-fields-plugins/documentation" target="_blank" class="btn btn-primary">Manual</a>
-		<a href="https://extensions.joomla.org/extension/mobile/qr-code/fields-qr-code/" target="_blank" class="btn btn-primary">Extensions Directory</a>
-		<a href="https://www.joomill-extensions.com/extensions/custom-fields-plugins" target="_blank" class="btn btn-success">Get PRO Version</a>
-		</p>
-		<br/>
-		<p>
-		Follow me for more information about Joomla and updates for Joomill extensions:<br/>
-		<a href="https://www.twitter.com/Joomill" target="_blank"><i class="fab fa-twitter-square fa-2x" style="color:#1DA1F2;"></i></a>
-		<a href="https://www.instagram.com/Joomill" target="_blank"><i class="fab fa-instagram-square fa-2x" style="color:#E1306C;"></i></a>
-		<a href="https://www.facebook.com/Joomill" target="_blank"><i class="fab fa-facebook-square fa-2x" style="color:#4267B2;"></i></a>
-		</p>
-		<style>
-		a[target="_blank"]::before {
-			content: "";
-		}
-		</style>
-		]]>
-    </description>
 
     <files>
         <folder>elements</folder>
@@ -53,7 +24,6 @@
     <config>
     </config>
 
-    <!-- Scripts to run on installation -->
     <scriptfile>script.php</scriptfile>
 
     <changelogurl>
