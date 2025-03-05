@@ -11,13 +11,10 @@ namespace Joomill\Plugin\Fields\Qrcode\Field;
 // No direct access.
 defined('_JEXEC') or die;
 
-use Joomla\CMS\Form\Field\ListField;
-use Joomla\CMS\Form\FormHelper;
+use Joomla\CMS\Form\FormField;
 use Joomla\CMS\Language\Text;
 
-FormHelper::loadFieldClass('list');
-
-class ProField extends ListField
+class ProField extends FormField
 {
 	protected $type = 'pro';
 
