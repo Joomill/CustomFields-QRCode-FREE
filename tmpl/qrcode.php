@@ -19,9 +19,9 @@ $value   = $field->value;
 $align   = $fieldParams->get('align');
 $size    = $fieldParams->get('size');
 $color   = $fieldParams->get('color');
-$color   = substr($color, 1);
+$color   = substr($color ?? '', 1);
 $bgcolor = $fieldParams->get('bgcolor');
-$bgcolor = substr($bgcolor, 1);
+$bgcolor = substr($bgcolor ?? '', 1);
 
 $ratio = "";
 
