@@ -6,6 +6,8 @@
  *  link: https://www.joomill-extensions.com
  */
 
+namespace Joomill\Plugin\Fields\Qrcode\Field;
+
 // No direct access.
 defined('_JEXEC') or die;
 
@@ -15,7 +17,7 @@ use Joomla\CMS\Language\Text;
 
 FormHelper::loadFieldClass('list');
 
-class JFormFieldPRO extends ListField
+class ProField extends ListField
 {
 	protected $type = 'pro';
 

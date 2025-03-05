@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~  package: Custom Fields - QR Code plugin - FREE Version
-  ~  copyright: Copyright (c) 2025. Jeroen Moolenschot | Joomill
-  ~  license: GNU General Public License version 3 or later
-  ~  link: https://www.joomill-extensions.com
-  -->
-
 <form>
     <fields name="fieldparams">
         <fieldset
                 name="fieldparams"
-                addfieldpath="/plugins/fields/qrcode/elements"
+                addfieldprefix="Joomill\Plugin\Fields\Qrcode\Field"
         >
 
             <field

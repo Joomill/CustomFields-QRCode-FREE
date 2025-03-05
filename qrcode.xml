@@ -12,7 +12,6 @@
     <namespace path="src">Joomill\Plugin\Fields\Qrcode</namespace>
 
     <files>
-        <folder>elements</folder>
         <folder>language</folder>
         <folder>params</folder>
         <folder plugin="qrcode">services</folder>
