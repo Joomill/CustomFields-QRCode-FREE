@@ -12,6 +12,7 @@ namespace Joomill\Plugin\Fields\Qrcode\Field;
 defined('_JEXEC') or die;
 
 use Joomla\CMS\Form\FormField;
+use Joomla\CMS\Language\Text;
 
 class UpgradeField extends FormField
 {
@@ -19,10 +20,10 @@ class UpgradeField extends FormField
 
 	protected function getInput()
 	{
+		$text = Text::_('PLG_FIELDS_QRCODE_FREE_VERSION');
+
 		return
-		//TODO
-			'<div class="alert alert-success text-center small">This is the FREE version of Joomill Custom Fields plugin. <br/> Some features and support are only available in the <a class="alert-link" target="_blank" href="https://www.joomill-extensions.com/extensions/custom-fields-plugins">PRO Version</a></div>';
+			'<div class="alert alert-warning text-center small">' . $text . '<br/> 
+			 <a class="btn btn-success btn-sm text-white mt-3" target="_blank" href="https://www.joomill-extensions.com/extensions/custom-fields-plugins">Custom Fields PRO</a></div>';
 	}
-
-
 }
