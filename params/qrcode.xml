@@ -44,6 +44,14 @@
             />
 
             <field
+                    name="currenturl"
+                    type="pro"
+                    label="PLG_FIELDS_QRCODE_PARAMS_CURRENTURL_LABEL"
+                    description="PLG_FIELDS_QRCODE_PARAMS_CURRENTURL_DESC"
+                    default="0"
+            />
+
+            <field
                     name=""
                     type="upgrade"
             />
